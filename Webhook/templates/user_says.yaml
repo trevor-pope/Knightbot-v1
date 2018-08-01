@@ -1,0 +1,89 @@
+# Template for defining UserSays examples
+
+# give-color-intent:
+
+#  UserSays:
+#    - My color is blue
+#    - red is my favorite color
+
+#  Annotations:
+#    - blue: sys.color     # maps param value -> entity
+#    - red: sys.color
+
+#  Events:
+#    - event1              # adds a triggerable event named 'event1' to the intent
+
+
+
+greeting:
+  UserSays:
+  - 
+  - 
+  Annotations:
+  - 
+  - 
+  Events:
+  - 
+get-office-hours:
+  UserSays:
+  - 
+  - 
+  Annotations:
+  - 
+  - 
+  Events:
+  - 
+get-event-data:
+  UserSays:
+  - 
+  - 
+  Annotations:
+  - 
+  - 
+  Events:
+  - 
+blink:
+  UserSays:
+  - 
+  - 
+  Annotations:
+  - 
+  - 
+  Events:
+  - 
+rotate:
+  UserSays:
+  - 
+  - 
+  Annotations:
+  - 
+  - 
+  Events:
+  - 
+lizard:
+  UserSays:
+  - 
+  - 
+  Annotations:
+  - 
+  - 
+  Events:
+  - 
+gugu:
+  UserSays:
+  - 
+  - 
+  Annotations:
+  - 
+  - 
+  Events:
+  - 
+fallback:
+  UserSays:
+  - 
+  - 
+  Annotations:
+  - 
+  - 
+  Events:
+  - 

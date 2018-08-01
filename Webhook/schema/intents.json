@@ -1,0 +1,198 @@
+[
+    {
+        "name": "greeting",
+        "auto": true,
+        "contexts": [],
+        "templates": [],
+        "userSays": [],
+        "responses": [
+            {
+                "action": "greet_and_start",
+                "resetContexts": false,
+                "affectedContexts": [],
+                "parameters": [],
+                "messages": []
+            }
+        ],
+        "priority": 500000,
+        "fallbackIntent": false,
+        "webhookUsed": true,
+        "webhookForSlotFilling": true,
+        "events": [],
+        "id": "fa5c4ed7-ba4c-4b3b-83b7-acf92e41b795"
+    },
+    {
+        "name": "get-office-hours",
+        "auto": true,
+        "contexts": [],
+        "templates": [],
+        "userSays": [],
+        "responses": [
+            {
+                "action": "ask_for_hours",
+                "resetContexts": false,
+                "affectedContexts": [],
+                "parameters": [
+                    {
+                        "name": "professor",
+                        "value": "$professor",
+                        "dataType": "@professor",
+                        "prompts": [],
+                        "required": true,
+                        "isList": false,
+                        "defaultValue": ""
+                    }
+                ],
+                "messages": []
+            }
+        ],
+        "priority": 500000,
+        "fallbackIntent": false,
+        "webhookUsed": true,
+        "webhookForSlotFilling": true,
+        "events": [],
+        "id": "e55fec4c-7937-4f75-be64-90e442e0cb8c"
+    },
+    {
+        "name": "get-event-data",
+        "auto": true,
+        "contexts": [],
+        "templates": [],
+        "userSays": [],
+        "responses": [
+            {
+                "action": "ask_for_event",
+                "resetContexts": false,
+                "affectedContexts": [],
+                "parameters": [
+                    {
+                        "name": "event",
+                        "value": "$event",
+                        "dataType": "@event",
+                        "prompts": [],
+                        "required": true,
+                        "isList": false,
+                        "defaultValue": ""
+                    }
+                ],
+                "messages": []
+            }
+        ],
+        "priority": 500000,
+        "fallbackIntent": false,
+        "webhookUsed": true,
+        "webhookForSlotFilling": true,
+        "events": [],
+        "id": "dbf7ab12-cda6-43b0-8c86-45bbf4e1725c"
+    },
+    {
+        "name": "blink",
+        "auto": true,
+        "contexts": [],
+        "templates": [],
+        "userSays": [],
+        "responses": [
+            {
+                "action": "rotate_servo",
+                "resetContexts": false,
+                "affectedContexts": [],
+                "parameters": [],
+                "messages": []
+            }
+        ],
+        "priority": 500000,
+        "fallbackIntent": false,
+        "webhookUsed": true,
+        "webhookForSlotFilling": true,
+        "events": [],
+        "id": "958225bc-2e81-4e55-8aeb-bc218e62cf28"
+    },
+    {
+        "name": "rotate",
+        "auto": true,
+        "contexts": [],
+        "templates": [],
+        "userSays": [],
+        "responses": [
+            {
+                "action": "rotate_servo",
+                "resetContexts": false,
+                "affectedContexts": [],
+                "parameters": [],
+                "messages": []
+            }
+        ],
+        "priority": 500000,
+        "fallbackIntent": false,
+        "webhookUsed": true,
+        "webhookForSlotFilling": true,
+        "events": [],
+        "id": "99d11fc6-fdc7-4b12-a0ef-62128fa4d105"
+    },
+    {
+        "name": "lizard",
+        "auto": true,
+        "contexts": [],
+        "templates": [],
+        "userSays": [],
+        "responses": [
+            {
+                "action": "rotate_servo",
+                "resetContexts": false,
+                "affectedContexts": [],
+                "parameters": [],
+                "messages": []
+            }
+        ],
+        "priority": 500000,
+        "fallbackIntent": false,
+        "webhookUsed": true,
+        "webhookForSlotFilling": true,
+        "events": [],
+        "id": "7c6d828e-edc4-441c-bc5a-391f18412833"
+    },
+    {
+        "name": "gugu",
+        "auto": true,
+        "contexts": [],
+        "templates": [],
+        "userSays": [],
+        "responses": [
+            {
+                "action": "swank",
+                "resetContexts": false,
+                "affectedContexts": [],
+                "parameters": [],
+                "messages": []
+            }
+        ],
+        "priority": 500000,
+        "fallbackIntent": false,
+        "webhookUsed": true,
+        "webhookForSlotFilling": true,
+        "events": [],
+        "id": "ea3e7a24-cc31-4b6e-9293-8c66252b9fa5"
+    },
+    {
+        "name": "fallback",
+        "auto": true,
+        "contexts": [],
+        "templates": [],
+        "userSays": [],
+        "responses": [
+            {
+                "action": "confused",
+                "resetContexts": false,
+                "affectedContexts": [],
+                "parameters": [],
+                "messages": []
+            }
+        ],
+        "priority": 500000,
+        "fallbackIntent": true,
+        "webhookUsed": true,
+        "webhookForSlotFilling": true,
+        "events": [],
+        "id": "7a55fed5-1e6c-4186-a7ed-f718afcd6b14"
+    }
+]

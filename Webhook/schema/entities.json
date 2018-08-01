@@ -1,0 +1,36 @@
+[
+    {
+        "name": "professor",
+        "entries": [
+            {
+                "value": "garrison",
+                "synonyms": [
+                    "Garrison",
+                    "garrison"
+                ]
+            },
+            {
+                "value": "kwak",
+                "synonyms": [
+                    "Kwak",
+                    "Clock"
+                ]
+            }
+        ],
+        "isEnum": null,
+        "id": "0e9684a8-caee-4d32-9087-e309ca9f56b6"
+    },
+    {
+        "name": "event",
+        "entries": [
+            {
+                "value": "graduation",
+                "synonyms": [
+                    "grad"
+                ]
+            }
+        ],
+        "isEnum": null,
+        "id": "3a9810a2-db53-494d-812f-dd0677ecfba7"
+    }
+]
