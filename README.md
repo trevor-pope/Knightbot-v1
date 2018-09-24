@@ -5,6 +5,8 @@ robot powered by Arduino and Raspberry Pi.
 
   - Utilizes [Snowboy Hotword Detection](https://github.com/Kitt-AI/snowboy), [GoogleTTS](https://github.com/glutanimate/simple-google-tts), and [Flask Assistant](https://github.com/treethought/flask-assistant).
   - Fully customizable Assistant, including hotword
+  - Returns responses handleable by Dialogflow, and forwards the rest to Assistant API
+
  
  
  ![flowchart](flowchart.png)
