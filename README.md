@@ -16,11 +16,11 @@ After a fresh install of Raspian, make sure to
 ```sh
 $ sudo apt get update
 ```
-And then configure SSH and setup a static IP with
+And then configure SSH with
 ```sh
 $ sudo raspi-config
 ```
-and
+and setup a static IP inside
 ```sh
 $ sudo nano /etc/dhcpcd.conf
 ```
