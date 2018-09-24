@@ -72,7 +72,7 @@ You can download Snowboy [here](https://github.com/kitt-ai/snowboy). There are p
 
 Note: audio setup is a large hassle, because different components of the project use different audio setups (i.e. Pulseaudio vs Alsa vs. PortAudio). Make sure to configure these with scrutiny, and make use of the Raspberry Pi's ```.asoundrc``` file.
 
-####Final Setup
+#### Final Setup
 To have Knightbot function independently, we boot up the Pi into "Console AutoLogin" mode, which can be under Boot Options, then Desktop/CLI inside
 ```sh
 sudo raspi-config
