@@ -4,7 +4,7 @@ Knightbot is an implementation of Google's Assistant Python SDK and the Dialogfl
 robot powered by Arduino and Raspberry Pi.
 
   - Utilizes [Snowboy Hotword Detection](https://github.com/Kitt-AI/snowboy), [GoogleTTS](https://github.com/glutanimate/simple-google-tts), and [Flask Assistant](https://github.com/treethought/flask-assistant).
-  - Fully customizable, and constructed out of 3D-printed parts!
+  - Fully customizable Assistant, including hotword
  
  
  ![flowchart](flowchart.png)
@@ -66,7 +66,7 @@ Note: Flask Assistant has not yet been updated to work with Dialogflow's V2 API,
 You can get the TTS from [here](https://github.com/glutanimate/simple-google-tts). The setup is relatively easy, just move the ```simple_google_tts``` and ```speak.pl``` files into the same directory as ```knightbot.py```.
 
 #### Installing Snowboy
-You can download Snowboy [here](https://github.com/kitt-ai/snowboy). There are precompiled binaries, but it is recommended to install it manually. Make sure to create the Python Wrapper. You may install Snowboy in it's own directory, but move the provided ```ding.wav``` and ```dong.wav``` files to ```knightbot.py```'s direrectory, or create your own soundfiles.
+You can download Snowboy [here](https://github.com/kitt-ai/snowboy). There are precompiled binaries, but it is recommended to install it manually. Make sure to create the Python Wrapper. You may install Snowboy in it's own directory, but move the provided ```ding.wav``` and ```dong.wav``` files to ```knightbot.py```'s direrectory, or create your own soundfiles. Make sure to put your .pmdl file inside the same directory as well.
 
 Note: audio setup is a large hassle, because different components of the project use different audio setups (i.e. Pulseaudio vs Alsa vs. PortAudio). Make sure to configure these with scrutiny, and make use of the Raspberry Pi's ```.asoundrc``` file.
 
