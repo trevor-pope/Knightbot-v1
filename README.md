@@ -3,7 +3,7 @@
 Knightbot is an implementation of Google's Assistant Python SDK and the Dialogflow Python Client, wrapped nicely inside a
 robot powered by Arduino and Raspberry Pi.
 
-###### Created as a research project for MGSU's Robotics Lab. It was designed to serve the campus by answering questions like ###### "When does Professor Miller have office hours?" or "When is the graduation ceremony?"
+###### Created as a research project for MGSU's Robotics Lab. It was designed to serve the campus by answering questions like "When does Professor Miller have office hours?" or "When is the graduation ceremony?"
 
   - Utilizes [Snowboy Hotword Detection](https://github.com/Kitt-AI/snowboy), [GoogleTTS](https://github.com/glutanimate/simple-google-tts), and [Flask Assistant](https://github.com/treethought/flask-assistant).
   - Fully customizable Assistant, including hotword and physical response, movement, and voice
