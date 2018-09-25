@@ -1,0 +1,23 @@
+{
+  "id": "958225bc-2e81-4e55-8aeb-bc218e62cf28",
+  "name": "blink",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "rotate_servo",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1510702193,
+  "fallbackIntent": false,
+  "events": []
+}

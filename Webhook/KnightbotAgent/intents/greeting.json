@@ -1,0 +1,29 @@
+{
+  "id": "fa5c4ed7-ba4c-4b3b-83b7-acf92e41b795",
+  "name": "greeting",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greet_and_start",
+      "affectedContexts": [
+        {
+          "name": "greeting-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1509489469534,
+  "fallbackIntent": false,
+  "events": []
+}

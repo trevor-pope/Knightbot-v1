@@ -1,0 +1,165 @@
+[
+  {
+    "id": "cf5c85a2-f833-4cb0-a9b5-1ee54e774252",
+    "data": [
+      {
+        "text": "when does Ms. ",
+        "userDefined": false
+      },
+      {
+        "text": "Bell",
+        "alias": "professor",
+        "meta": "@professor",
+        "userDefined": false
+      },
+      {
+        "text": " have office hours",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1530221662
+  },
+  {
+    "id": "33d8ae0f-2a0b-4d40-ba08-767ca6f259c9",
+    "data": [
+      {
+        "text": "when is ",
+        "userDefined": false
+      },
+      {
+        "text": "kwak",
+        "alias": "professor",
+        "meta": "@professor",
+        "userDefined": false
+      },
+      {
+        "text": " in his office",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1530221662
+  },
+  {
+    "id": "cda575bc-4915-4638-aa52-b4fbaac392b1",
+    "data": [
+      {
+        "text": "when does ",
+        "userDefined": false
+      },
+      {
+        "text": "kwak",
+        "alias": "professor",
+        "meta": "@professor",
+        "userDefined": false
+      },
+      {
+        "text": " have office hours",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1530221662
+  },
+  {
+    "id": "a3325565-5701-488a-b73f-de290c7c70bb",
+    "data": [
+      {
+        "text": "when are ",
+        "userDefined": false
+      },
+      {
+        "text": "kwak",
+        "alias": "professor",
+        "meta": "@professor",
+        "userDefined": false
+      },
+      {
+        "text": " office hours",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1530221662
+  },
+  {
+    "id": "af295e37-0f0f-4546-a8d5-e6ec18df0abb",
+    "data": [
+      {
+        "text": "when is ",
+        "userDefined": false
+      },
+      {
+        "text": "garrison",
+        "alias": "professor",
+        "meta": "@professor",
+        "userDefined": true
+      },
+      {
+        "text": " in his office",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1530221662
+  },
+  {
+    "id": "6a76fcdf-d4be-4e9d-a921-1fec346bf250",
+    "data": [
+      {
+        "text": "when does ",
+        "userDefined": false
+      },
+      {
+        "text": "garrison",
+        "alias": "professor",
+        "meta": "@professor",
+        "userDefined": false
+      },
+      {
+        "text": " have office hours",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1530221662
+  },
+  {
+    "id": "1d534f8c-1f4b-401e-a103-61c2d3d7bc97",
+    "data": [
+      {
+        "text": "when are ",
+        "userDefined": false
+      },
+      {
+        "text": "garrison",
+        "alias": "professor",
+        "meta": "@professor",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " hours",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524087271
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "id": "fe91b50d-f043-4ebb-86c5-26f6d9b9bc2b",
+  "parentId": "fa5c4ed7-ba4c-4b3b-83b7-acf92e41b795",
+  "rootParentId": "fa5c4ed7-ba4c-4b3b-83b7-acf92e41b795",
+  "name": "greeting - custom",
+  "auto": true,
+  "contexts": [
+    "greeting-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greeting.greeting-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": []
+}

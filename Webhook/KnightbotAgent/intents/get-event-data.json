@@ -1,0 +1,34 @@
+{
+  "id": "dbf7ab12-cda6-43b0-8c86-45bbf4e1725c",
+  "name": "get-event-data",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ask_for_event",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "de1367aa-5297-4e35-a7f1-7d6fb2da4d05",
+          "required": true,
+          "dataType": "@event",
+          "name": "event",
+          "value": "$event",
+          "prompts": [],
+          "defaultValue": "",
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1530223175,
+  "fallbackIntent": false,
+  "events": []
+}

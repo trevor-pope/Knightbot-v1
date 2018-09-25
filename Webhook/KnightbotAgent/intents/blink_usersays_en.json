@@ -1,0 +1,50 @@
+[
+  {
+    "id": "498e4983-56da-45da-b8c4-81fdf53f0049",
+    "data": [
+      {
+        "text": "blink the eyes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b2fb6371-c09b-4028-980d-31c6af4c1d50",
+    "data": [
+      {
+        "text": "eyes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5a57ee0b-caa1-409c-9271-6b8f07ca6a04",
+    "data": [
+      {
+        "text": "flash",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0f725bb0-e2e9-4a79-9249-3402cff6c3c3",
+    "data": [
+      {
+        "text": "blink",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

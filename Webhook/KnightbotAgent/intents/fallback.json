@@ -1,0 +1,23 @@
+{
+  "id": "7a55fed5-1e6c-4186-a7ed-f718afcd6b14",
+  "name": "fallback",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "confused",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1511910413,
+  "fallbackIntent": true,
+  "events": []
+}

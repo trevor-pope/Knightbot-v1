@@ -1,0 +1,34 @@
+{
+  "id": "e55fec4c-7937-4f75-be64-90e442e0cb8c",
+  "name": "get-office-hours",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ask_for_hours",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a614bc92-62f9-4b23-8bed-6d07c18ffe8a",
+          "required": true,
+          "dataType": "@professor",
+          "name": "professor",
+          "value": "$professor",
+          "prompts": [],
+          "defaultValue": "",
+          "isList": true
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1530221662,
+  "fallbackIntent": false,
+  "events": []
+}
