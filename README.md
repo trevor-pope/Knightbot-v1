@@ -106,7 +106,8 @@ pip install uuid
 
 ##Arduino / Raspberry Pi / Webhook Setup
 
-Simply connect the Arduino and Pi via serial cable to connect them. We use pySerial to communicate between the two. We use a 3 digit number (x.y.z), which the Arduino interperets as commands, X for an LED matrix (intended for the eyes), Y for the head servo, and z for the wheels. This is completely customizable, just edit the Arduino files.
+Simply connect the Arduino and Pi via serial cable to connect them. We use pySerial to communicate between the two. We use a 3 digit number (x.y.z), which the Arduino interperets as commands, X for an LED matrix (intended for the eyes), Y for the head servo, and z for the wheels. This is completely customizable, just edit the Arduino files and wire up your own motors.
 
-The webhook has several python modules.
+The webhook has several python modules that you may edit. Ideally, they'd be connected to a database, we have provided a list with a few examples to show off what you can do with them. Read up on the Flask Assistant documentation to see what you can do.
+
 
