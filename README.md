@@ -104,7 +104,7 @@ pip install json
 pip install uuid
 ```
 
-##Arduino / Raspberry Pi / Webhook Setup
+## Arduino / Raspberry Pi / Webhook Setup
 
 Simply connect the Arduino and Pi via serial cable to connect them. We use pySerial to communicate between the two. We use a 3 digit number (x.y.z), which the Arduino interperets as commands, X for an LED matrix (intended for the eyes), Y for the head servo, and z for the wheels. This is completely customizable, just edit the Arduino files and wire up your own motors.
 
