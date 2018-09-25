@@ -3,9 +3,11 @@
 Knightbot is an implementation of Google's Assistant Python SDK and the Dialogflow Python Client, wrapped nicely inside a
 robot powered by Arduino and Raspberry Pi.
 
+###### Created as a research project for MGSU's Robotics Lab. It was designed to serve the campus by answering questions like ###### "When does Professor Miller have office hours?" or "When is the graduation ceremony?"
+
   - Utilizes [Snowboy Hotword Detection](https://github.com/Kitt-AI/snowboy), [GoogleTTS](https://github.com/glutanimate/simple-google-tts), and [Flask Assistant](https://github.com/treethought/flask-assistant).
-  - Fully customizable Assistant, including hotword
-  - Returns responses handleable by Dialogflow, and forwards the rest to Assistant API
+  - Fully customizable Assistant, including hotword and physical response, movement, and voice
+  - Returns responses Dialogflow can handle, and forwards the rest to Assistant API
 
  
  
@@ -91,8 +93,20 @@ export GOOGLE_APPLICATION_CREDENTIALS='/path/to/Dialoglow/Credentials'
 export AUDIODEV=hw:0,0 #the two numbers here will depend on your audio setup, and the ports that the microphone and speaker use. 
 python knightbot.py
 ```
+
 ###### Warning: running these lines and booting into Desktop mode will crash the Pi. 
 There are other ways to run ```knightbot.py``` on startup, each with pro's and con's. 
 
+Finally, get the following dependencies:
+```sh
+pip install pyserial
+pip install json
+pip install uuid
+```
 
+##Arduino / Raspberry Pi / Webhook Setup
+
+Simply connect the Arduino and Pi via serial cable to connect them. We use pySerial to communicate between the two. We use a 3 digit number (x.y.z), which the Arduino interperets as commands, X for an LED matrix (intended for the eyes), Y for the head servo, and z for the wheels. This is completely customizable, just edit the Arduino files.
+
+The webhook has several python modules.
 
