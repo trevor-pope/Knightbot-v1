@@ -59,7 +59,7 @@ response = session_client.detect_intent(
     #    response.query_result.fulfillment_text))
 ```
 
-This is done so that you can call ```detect_intent_audio()``` and handle the response yourself. To run this, Dialogflow requires a ```project_id``` (so make sure to keep track of this), a ```session_id``` (which ```knightbot.py``` randomly generate), an audio file input and a language code.
+This is done so that you can call ```detect_intent_audio()``` and handle the response yourself. To run this, Dialogflow requires a ```project_id``` (so make sure to keep track of this), a ```session_id``` (which ```knightbot.py``` randomly generates), an audio file input and a language code.
 
 #### Installing Flask Assistant
 Follow the instructions [here](https://flask-assistant.readthedocs.io/en/latest/quick_start.html) to setup the webhook and flask app (Or make your own webhook, instructions for Dialogflow webhook specifications can be found [here](https://developers.google.com/actions/build/json/dialogflow-webhook-json)).
