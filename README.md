@@ -95,7 +95,7 @@ python knightbot.py
 ```
 
 ###### Warning: running these lines and booting into Desktop mode will crash the Pi. 
-There are other ways to run ```knightbot.py``` on startup, each with pro's and con's. 
+There are other ways to run ```knightbot.py``` on startup, each with pro's and con's, feel free to change it.
 
 Finally, get the following dependencies:
 ```sh
